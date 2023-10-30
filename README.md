@@ -8,7 +8,7 @@ Example command: `leetcode 42`.
 
 `leetcode-server` command starts a server (by default listening on localhost on port 8080) and expects requests in the form `/$problem-number`.
 
-For example, after starting the server, try opening 'localhost:8080/42` in your browser.
+For example, after starting the server, try opening `localhost:8080/42` in your browser.
 
 In takes optional port argument to change the port.
 
