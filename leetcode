@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import core
+import sys
+import os
+
+args = sys.argv[1:]
+
+arg = args[0]
+
+name = core.id_or_name_to_name(arg)
+
+url = core.name_to_leetcode_url(name)
+
+os.execlp('firefox', '--new-tab', url)
